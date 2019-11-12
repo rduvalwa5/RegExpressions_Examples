@@ -1,0 +1,36 @@
+1. https://dl.icewarp.com/online_help/203030104.htm
+2. There follows some very basic examples of regular expression usage. For a complete description please visit www.regular-expressions.info.
+^' and '$'
+3. First of all, let's take a look at two special symbols: '^' and '$'. These symbols indicate the start and the end of a string, respectively:
+	"^The"  matches any string that starts with "The".
+
+4. "of despair$"
+	matches a string that ends in with "of despair".
+
+5. "^abc$"
+	a string that starts and ends with "abc" - effectively an exact match comparison.
+
+6. "notice"
+	a string that has the text "notice" in it.
+
+	
+	
+OSXAir:~ rduvalwa2$ cd /Users/rduvalwa2/git/BasicPython/RegularExpressions
+OSXAir:RegularExpressions rduvalwa2$ ls
+RegExpressExample.py	example2.py		testFile.txt
+RegExpress_Notes.txt	example_1.py
+ValidateEmailFormat.py	reMatchExamples.py
+OSXAir:RegularExpressions rduvalwa2$ grep ^https *
+RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
+RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
+RegExpress_Notes.txt:https://docs.python.org/3/howto/regex.html
+ValidateEmailFormat.py:https://docs.oracle.com/cd/E19683-01/817-0204/6mg168c5t/index.html
+ValidateEmailFormat.py:https://www.mailboxvalidator.com/resources/articles/acceptable-email-address-syntax-rfc/
+example2.py:https://docs.python.org/3/library/re.html
+example2.py:https://docs.python.org/3/library/re.html
+example2.py:https://docs.python.org/3/howto/regex.html
+OSXAir:RegularExpressions rduvalwa2$ grep $https *
+OSXAir:RegularExpressions rduvalwa2$ grep ^There *
+OSXAir:RegularExpressions rduvalwa2$ grep There *
+testFile.txt:2. There follows some very basic examples of regular expression usage. For a complete description please visit www.regular-expressions.info.
+OSXAir:RegularExpressions rduvalwa2$ grep There *
