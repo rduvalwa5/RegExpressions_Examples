@@ -1,0 +1,28 @@
+https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
+
+Example 1: 
+
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep [a-z].html testFile.txt 
+RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
+RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
+RegExpress_Notes.txt:https://docs.python.org/3/howto/regex.html
+ValidateEmailFormat.py:https://docs.oracle.com/cd/E19683-01/817-0204/6mg168c5t/index.html
+example2.py:https://docs.python.org/3/library/re.html
+example2.py:https://docs.python.org/3/library/re.html
+example2.py:https://docs.python.org/3/howto/regex.html
+
+Example 2:
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep [A-Z].html testFile.txt 
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$
+
+Example 3:
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep ^email testFile.txt 
+
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep email testFile.txt 
+ValidateEmailFormat.py:https://www.mailboxvalidator.com/resources/articles/acceptable-email-address-syntax-rfc/
+
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep ^Val testFile.txt 
+ValidateEmailFormat.py	reMatchExamples.py
+ValidateEmailFormat.py:https://docs.oracle.com/cd/E19683-01/817-0204/6mg168c5t/index.html
+ValidateEmailFormat.py:https://www.mailboxvalidator.com/resources/articles/acceptable-email-address-syntax-rfc/
+RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ 
