@@ -3,6 +3,7 @@ https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-6
 
 Example 1: 
 
+
 RandyDuvalsMBP-20:RegExpressions_Examples rduvalwa2$ grep [a-z].html testFile.txt 
 RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
 RegExpress_Notes.txt:https://docs.python.org/3/library/re.html
